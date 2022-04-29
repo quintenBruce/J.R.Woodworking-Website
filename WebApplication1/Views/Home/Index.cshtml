@@ -1,0 +1,97 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+
+@Html.Partial("_imageHeader")
+
+
+
+
+@*
+    <div id="carouselExampleIndicators" class="carousel slide d-md-none" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://res.cloudinary.com/dmremrlru/image/upload/v1649640802/Products/online_barndoor_xiuihw.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://res.cloudinary.com/dmremrlru/image/upload/v1649641063/Products/Barn-Door-Console-by-Shanty2Chic_mmekdp.webp" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="~/css/Barn-Door-Console-by-Shanty2Chic.webp" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>*@
+
+
+
+
+
+
+<div class="container mt-4">
+    <h1 class="text-center">Shop By Collection</h1>
+    <hr />
+</div>
+
+
+
+<div class="container-md mt-3">
+    <div class="row">
+        <div class="col-lg-4 mb-4 mb-lg-0">
+            <a class="home-img-link" asp-controller="Products" asp-action="LivingRoom">
+            <div class="img-wrapper mb-4">
+                <div class="img-description rounded">Living Room</div>
+                <img class="w-100 rounded gllary-img" src="https://res.cloudinary.com/dmremrlru/image/upload/v1649641063/Products/Barn-Door-Console-by-Shanty2Chic_mmekdp.webp" alt=""/>  
+             </div>
+             </a>
+             <a class="home-img-link" asp-controller="Products" asp-action="BedRoom">
+             <div class="img-wrapper">
+                <div class="img-description rounded">Bedroom</div>
+                    <img src="https://res.cloudinary.com/dmremrlru/image/upload/v1649641115/Products/dresser_dej6kw.jpg" class="w-100 rounded" alt="Yosemite National Park"/>
+            </div>   
+            </a>
+        </div>
+        <div class="col-lg-4 mb-4 mb-lg-0">
+            <a class="home-img-link" asp-controller="Products" asp-action="BathRoom">
+            <div class="img-wrapper mb-4">
+                <div class="img-description rounded">Bathroom</div>
+                    <img src="https://res.cloudinary.com/dmremrlru/image/upload/v1649640802/Products/online_barndoor_xiuihw.jpg" class="w-100  rounded" alt="Mountains in the Clouds"/>
+            </div>
+            </a>
+            <a class="home-img-link" asp-controller="Products" asp-action="DiningRoom">
+            <div class="img-wrapper">
+                <div class="img-description rounded">Dining Room</div>
+                    <img src="https://res.cloudinary.com/dmremrlru/image/upload/v1649641142/Products/ezgif.com-gif-maker_4_ceqe81.jpg" class="w-100 rounded" alt="Boat on Calm Water"/>
+            </div>
+            </a>
+        </div>
+        <div class="col-lg-4 mb-4 mb-lg-0">
+            <a class="home-img-link" asp-controller="Products" asp-action="Office">
+            <div class="img-wrapper mb-4">
+                <div class="img-description rounded">Office</div>
+                <img src="https://res.cloudinary.com/dmremrlru/image/upload/v1649641170/Products/222750_kzlcnr.jpg" class="w-100 h-30 rounded" alt="Waves at Sea"/>
+            </div>
+            </a>
+            <a class="home-img-link" asp-controller="Products" asp-action="Outdoors">
+            <div class="img-wrapper">
+                <div class="img-description rounded">Outdoors</div>
+                    <img src="https://res.cloudinary.com/dmremrlru/image/upload/v1649641198/Products/ladder_2_tczk8w.jpg" class=" w-100 rounded" alt=""/>
+            </div>
+            </a>
+        </div>
+    </div> 
+</div>

@@ -1,0 +1,46 @@
+﻿@model List<Products>
+
+
+@{
+    Random random = new Random();
+    List<Products> Model_ = Model.OrderBy(x => random.Next()).ToList();
+    int count_ = (int)Math.Floor((decimal)Model.Count() / 3);
+    int countRemainder = Model.Count() % 3;
+
+    <div class="container mt-4">
+        <div class="row gallary-background">
+            @if (count_ >= 1)
+            {
+                @for (int i = 0; i < count_ * 3; i +=  count_)
+                {
+                    <div class="col-lg-4 mb-4 mb-lg-0">
+                        @for (int j = 0; j < count_; j++)
+                        {
+                            <div class="img-wrapper2 mb-4">
+                                <img src=@Model_[i+j].Img class="w-100  gallary-img" alt=""/>  
+                            </div>
+                            @if (j == count_ - 1 && countRemainder > 0)
+                            {
+                                <div class="img-wrapper2 mb-4">
+                                    <img src=@Model_[Model_.Count() - countRemainder].Img class="w-100  gallary-img" alt=""/>  
+                                </div>
+                                countRemainder--;
+                            } 
+                        }            
+                    </div>
+                }
+            }
+            else
+            {
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                @for (int i = 0; i < countRemainder; i++)
+                {
+                    <div class="img-wrapper mb-4">
+                        <img src=@Model_[i].Img class="w-100 rounded gallary-img" alt=""/>  
+                    </div>
+                }
+                </div>
+            }
+        </div> 
+    </div>
+}

@@ -1,0 +1,157 @@
+﻿
+
+#login-logout-button1 {
+    color: #a3a6a9;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+#login-logout-button2 {
+    color: #a3a6a9;
+    text-decoration: none;
+}
+
+.img-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+@media (min-width: 992px) {
+    .img-description {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 230%;
+        color: aliceblue;
+        background-color: rgb(52, 58, 64, .56);
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .img-wrapper:hover .img-description {
+        transition: transorm 400ms ease-in-out;
+        transform: scaleX(0);
+        transform-origin: right;
+        animation-fill-mode: forwards;
+        animation-duration: .5s;
+        animation-name: text_animation;
+    }
+    
+}
+
+@media (max-width: 992px) {
+    .img-description {
+        position: absolute;
+        top: 50%;
+        padding-top: 10px;
+        width: 100%;
+        height: 30%;
+        opacity: 0.85;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 230%;
+        color: aliceblue;
+        background-color: rgb(52, 58, 64, 0.05);
+        color: rgb(52, 58, 64);
+        font-weight: 500;
+        justify-content: center;
+        display: flex;
+        align-items: end;
+    }
+
+    .home-img-link {
+        pointer-events: none;
+    }
+ 
+}
+
+
+
+
+@keyframes text_animation {
+    100% {
+        opacity: 1;
+        transform: scaleX(1);
+    }
+}
+
+
+
+
+
+
+.home-page-intro-div {
+    /*background-color: #e8e8e8b2;*/
+    background-image: url("https://res.cloudinary.com/dmremrlru/image/upload/v1649642244/Products/Depositphotos_avqhth.jpg");
+    background-size: cover;
+    background-position: left;
+}
+
+.dark-footer {
+    background-color: #1a1a1a;
+}
+
+.privacy-footer {
+    color: #83929e;
+    text-decoration: underline;
+}
+
+.privacy-footer:hover {
+    color: #83929e;
+    text-decoration: none;
+}
+
+#logout-button {
+    border-radius: 10px;
+    color: red;
+}
+
+.img-header {
+    width: 60%;
+    animation: fadeInAnimation ease 1.7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.gallary-img {
+    object-fit: cover;
+    filter: brightness(85%);
+    filter: grayscale(5%);
+    border-style: solid;
+    border-color: #343a404c;
+    border-width: 2.3px;
+}
+
+.gallary-img {
+    object-fit: cover;
+    filter: brightness(85%);
+    filter: grayscale(5%);
+    border-style: solid;
+    border-color: #343a404c;
+    border-width: 2.3px;
+    border-radius: 1.1rem;
+}
+
+.gallary-background {
+    /*background-color: #343a401e;
+    border-radius: 1rem;*/
+}
+
+.img-wrapper2 {
+    position: relative;
+    overflow: hidden;
+}
+
