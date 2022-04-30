@@ -6,9 +6,6 @@ namespace WebApplication1.Controllers
     public class AboutController : Controller
     {
 
-
-
-
         //[Authorize]
         public IActionResult Index()
         {
