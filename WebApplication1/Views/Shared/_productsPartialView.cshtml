@@ -17,12 +17,12 @@
                         @for (int j = 0; j < count_; j++)
                         {
                             <div class="img-wrapper2 mb-4">
-                                <img src=@Model_[i+j].Img class="w-100  gallary-img" alt=""/>  
+                                <img src=@Model_[i+j].Img class="w-100  gallary-img" alt="===="/>  
                             </div>
                             @if (j == count_ - 1 && countRemainder > 0)
                             {
                                 <div class="img-wrapper2 mb-4">
-                                    <img src=@Model_[Model_.Count() - countRemainder].Img class="w-100  gallary-img" alt=""/>  
+                                    <img src=@Model_[Model_.Count() - countRemainder].Img class="w-100  gallary-img" alt="******"/>  
                                 </div>
                                 countRemainder--;
                             } 
@@ -36,7 +36,7 @@
                 @for (int i = 0; i < countRemainder; i++)
                 {
                     <div class="img-wrapper mb-4">
-                        <img src=@Model_[i].Img class="w-100 rounded gallary-img" alt=""/>  
+                        <img src=@Model_[i].Img class="w-100 rounded gallary-img" alt="_______"/>  
                     </div>
                 }
                 </div>
