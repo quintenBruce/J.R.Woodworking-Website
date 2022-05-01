@@ -8604,7 +8604,7 @@ fieldset:disabled .btn {
 }
 
 .rounded {
-    border-radius: 1.1rem !important;
+    border-radius: .8rem !important;
 }
 
 .rounded-0 {

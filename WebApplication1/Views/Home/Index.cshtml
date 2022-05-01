@@ -48,50 +48,68 @@
 </div>
 
 
-
-<div class="container-md mt-3">
+<div class="container-md mt-3 mb-3">
     <div class="row">
         <div class="col-lg-4 mb-4 mb-lg-0">
-            <a class="home-img-link" asp-controller="Products" asp-action="LivingRoom">
-            <div class="img-wrapper mb-4">
-                <div class="img-description rounded">Living Room</div>
-                <img class="w-100 rounded gllary-img" src="https://res.cloudinary.com/dmremrlru/image/upload/v1649641063/Products/Barn-Door-Console-by-Shanty2Chic_mmekdp.webp" alt=""/>  
-             </div>
-             </a>
-             <a class="home-img-link" asp-controller="Products" asp-action="BedRoom">
-             <div class="img-wrapper">
-                <div class="img-description rounded">Bedroom</div>
-                    <img src="https://res.cloudinary.com/dmremrlru/image/upload/v1649641115/Products/dresser_dej6kw.jpg" class="w-100 rounded" alt="Yosemite National Park"/>
+            <div class="img-wrapper mb-4 rounded">
+                <div class="img-description d-flex justify-content-center align-content-center flex-column">
+                    <p class="shop-by-title">Living Room</p>
+                    <button type="button" class ="shop-by-button" onclick="location.href='@Url.Action("LivingRoom", "Products")'">Shop</button>
+                </div>
+                <div class="img-inner-container">
+                <img class="w-100" src="https://res.cloudinary.com/dmremrlru/image/upload/v1651365804/Products/Customer%20Views/FB_IMG_1651365606345_yndg3z.jpg" alt=""/>  
+                </div>
+            </div>
+             <div class="img-wrapper rounded mb-3">
+                <div class="img-description rounded d-flex justify-content-center align-content-center flex-column">
+                    <p class="shop-by-title">Bedroom</p>
+                    <button type="button" class ="shop-by-button" onclick="location.href='@Url.Action("Bedroom", "Products")'">Shop</button>
+                </div>
+                <div class="img-inner-container">
+                <img src="https://res.cloudinary.com/dmremrlru/image/upload/v1651365800/Products/Customer%20Views/FB_IMG_1651365569718_zl1jbr.jpg" class="w-100" alt="Yosemite National Park"/>
+                </div>
             </div>   
-            </a>
         </div>
         <div class="col-lg-4 mb-4 mb-lg-0">
-            <a class="home-img-link" asp-controller="Products" asp-action="BathRoom">
-            <div class="img-wrapper mb-4">
-                <div class="img-description rounded">Bathroom</div>
-                    <img src="https://res.cloudinary.com/dmremrlru/image/upload/v1649640802/Products/online_barndoor_xiuihw.jpg" class="w-100  rounded" alt="Mountains in the Clouds"/>
+            <div class="img-wrapper mb-4 rounded">
+                <div class="img-description d-flex justify-content-center align-content-center flex-column">
+                    <p class="shop-by-title">Bathroom</p>
+                    <button type="button" class ="shop-by-button" onclick="location.href='@Url.Action("BathRoom", "Products")'">Shop</button>
+                </div>
+                <div class="img-inner-container">
+                <img src="https://res.cloudinary.com/dmremrlru/image/upload/v1651369674/Products/Customer%20Views/received_188213069427872_aujuwz.jpg" class="w-100 " alt="Mountains in the Clouds"/>
+                </div>
             </div>
-            </a>
-            <a class="home-img-link" asp-controller="Products" asp-action="DiningRoom">
-            <div class="img-wrapper">
-                <div class="img-description rounded">Dining Room</div>
-                    <img src="https://res.cloudinary.com/dmremrlru/image/upload/v1649641142/Products/ezgif.com-gif-maker_4_ceqe81.jpg" class="w-100 rounded" alt="Boat on Calm Water"/>
+            <div class="img-wrapper rounded">
+                <div class="img-description d-flex justify-content-center align-content-center flex-column">
+                    <p class="shop-by-title">Dining Room</p>
+                    <button type="button" class ="shop-by-button" onclick="location.href='@Url.Action("DiningRoom", "Products")'">Shop</button>
+                </div>
+                <div class="img-inner-container">
+                <img src="https://res.cloudinary.com/dmremrlru/image/upload/c_scale,h_1501,w_1657/v1651365794/Products/Customer%20Views/FB_IMG_1651365542722_fdd6mq.jpg" class="w-100" alt="Boat on Calm Water"/>
+                </div>
             </div>
-            </a>
         </div>
         <div class="col-lg-4 mb-4 mb-lg-0">
-            <a class="home-img-link" asp-controller="Products" asp-action="Office">
-            <div class="img-wrapper mb-4">
-                <div class="img-description rounded">Office</div>
-                <img src="https://res.cloudinary.com/dmremrlru/image/upload/v1649641170/Products/222750_kzlcnr.jpg" class="w-100 h-30 rounded" alt="Waves at Sea"/>
+            <div class="img-wrapper rounded mb-4">
+                <div class="img-description d-flex justify-content-center align-content-center flex-column">
+                    <p class="shop-by-title">Office</p>
+                    <button type="button" class ="shop-by-button" onclick="location.href='@Url.Action("Office", "Products")'">Shop</button>
+                </div>
+                <div class="img-inner-container">
+                <img src="https://res.cloudinary.com/dmremrlru/image/upload/v1651369953/Products/Customer%20Views/154015133_252256833020451_9003734967886412853_n_n38koc.jpg" class="w-100 h-30" alt="Waves at Sea"/>
+                </div>
             </div>
-            </a>
-            <a class="home-img-link" asp-controller="Products" asp-action="Outdoors">
-            <div class="img-wrapper">
-                <div class="img-description rounded">Outdoors</div>
-                    <img src="https://res.cloudinary.com/dmremrlru/image/upload/v1649641198/Products/ladder_2_tczk8w.jpg" class=" w-100 rounded" alt=""/>
+            <div class="img-wrapper rounded mb-5">
+                <div class="img-description d-flex justify-content-center align-content-center flex-column">
+                    <p class="shop-by-title">Outdoors</p>
+                    <button type="button" class ="shop-by-button" onclick="location.href='@Url.Action("Outdoors", "Products")'">Shop</button>
+                </div>
+                <div class="img-inner-container">
+                <img src="https://res.cloudinary.com/dmremrlru/image/upload/c_scale,h_1501,w_1657/v1651366232/Products/Customer%20Views/197783591_312291947016939_7489407679357877148_n_wtppzh.jpg" class=" w-100" alt=""/>
+                </div>
             </div>
-            </a>
+           
         </div>
     </div> 
 </div>
