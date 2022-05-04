@@ -89,10 +89,6 @@ div .img-description {
 }
 
 
-
-
-
-
 /*intro div img.*/
 .home-page-intro-div {
     /*background-color: #e8e8e8b2;*/
@@ -142,3 +138,52 @@ div .img-description {
     border-width: 2.3px;
     border-radius: 1.1rem;
 }
+
+.policies-div {
+    font-family: "Nunito Sans";
+    font-weight: 800;
+    color: white;
+}
+
+.bold-text {
+    font-weight: bold;
+    font-size: 98%;
+    color: #494949;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

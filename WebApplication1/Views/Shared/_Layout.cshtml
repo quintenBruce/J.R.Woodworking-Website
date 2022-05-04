@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="">
     <title>@ViewData["Title"] - J.R. Woodworking</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="~/css/styless.css" asp-append-version="true" />
@@ -32,12 +33,9 @@
                     <li class="nav-item">
                         <a class="nav-link" asp-controller="Policies" asp-action="PoliciesIndex">Policies</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" asp-controller="About" asp-route-returnurl="@ViewData["ReturnUrl"]" asp-action="Index">About</a>
-                    </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Shop By...</a>
-                        <div class="dropdown-menu">
+                        <div class="dropdown-menu bg-primary">
                             <a class="dropdown-item" asp-controller="Products" asp-action="LivingRoom">Living Room</a>
                             <a class="dropdown-item" asp-controller="Products" asp-action="DiningRoom">Dining Room</a>
                             <a class="dropdown-item" asp-controller="Products" asp-action="BedRoom">Bedroom</a>
@@ -46,7 +44,14 @@
                         </div>
                     </li>
                 </ul>
-                <partial name="_LoginPartialCustom" />
+                @*<partial name="_LoginPartialCustom" />*@
+                <ul class="navbar-nav">
+                    <div class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="About" asp-route-returnurl="@ViewData["ReturnUrl"]" asp-action="Index">About</a>
+                        </li>
+                    </div>
+                </ul>
             </div>
             </div>
         </nav>
@@ -59,7 +64,7 @@
 
     <footer class="bg-primary border-top footer text-muted">
         <div class="container">
-            &copy; 2022 - J.R Woodworking - <a class="privacy-footer" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2022 - J.R Woodworking
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
