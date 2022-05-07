@@ -25,7 +25,7 @@
                         <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" asp-controller="Quote" asp-action="Index">Quote</a>
+                        <a class="nav-link" asp-controller="Contact" asp-action="Index">Contact Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" asp-controller="Products" asp-action="ProductsIndex">Products</a>
@@ -47,9 +47,12 @@
                 @*<partial name="_LoginPartialCustom" />*@
                 <ul class="navbar-nav">
                     <div class="navbar-nav me-auto">
-                        <li class="nav-item">
+                        <a href="https://www.facebook.com/JamesReedWoodworking">
+                            <img class="fb-logo" src="https://res.cloudinary.com/dmremrlru/image/upload/v1651707364/5296499_fb_facebook_facebook_logo_icon_alga4o.png" />
+                        </a>
+                        @*<li class="nav-item">
                             <a class="nav-link" asp-controller="About" asp-route-returnurl="@ViewData["ReturnUrl"]" asp-action="Index">About</a>
-                        </li>
+                        </li>*@
                     </div>
                 </ul>
             </div>

@@ -2,7 +2,7 @@
 
 namespace WebApplication1.Controllers
 {
-    public class QuoteController : Controller
+    public class ContactController : Controller
     {
         public IActionResult Index()
         {

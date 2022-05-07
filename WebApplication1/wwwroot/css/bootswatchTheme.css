@@ -5124,7 +5124,9 @@ fieldset:disabled .btn {
 .card-body {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
-    padding: 1rem 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
 }
 
 .card-title {
@@ -8604,7 +8606,7 @@ fieldset:disabled .btn {
 }
 
 .rounded {
-    border-radius: .8rem !important;
+    border-radius: .7rem !important;
 }
 
 .rounded-0 {
