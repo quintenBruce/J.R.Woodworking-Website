@@ -27,12 +27,12 @@ namespace WebApplication1.Controllers
             new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1650825728/Products/Customer%20Views/Furniture/Screenshot_20210414-193043_Messenger_trlbjb.jpg", "End Table", true, new Category("Living")),
             new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1650825728/Products/Customer%20Views/Furniture/Screenshot_20210414-193037_Messenger_dtzpye.jpg", "End Table", true, new Category("Living")),
             new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1650825727/Products/Customer%20Views/Furniture/Screenshot_20210317-103654_Facebook_d5yi47.jpg", "Bar", true, new Category("Dining")),
-            new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1650825727/Products/Customer%20Views/Furniture/received_930117911077888_anmgyg.jpg", "Console", true, new Category("Dining", "Living")),
+            new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1650825727/Products/Customer%20Views/Furniture/received_930117911077888_anmgyg.jpg", "Console", true, new Category("Living")),
             new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1650825726/Products/Customer%20Views/Furniture/Screenshot_20210215-205945_Facebook_rldhus.jpg", "Bar", true, new Category("Dining", "Living")),
             new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1650825725/Products/Customer%20Views/Furniture/received_811096049758277_dmny0n.jpg", "Hamper", true, new Category("Kitchen", "Office")),
             new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1650825724/Products/Customer%20Views/Furniture/received_778245506184408_ojitpz.jpg", "Dining Table", true, new Category("Dining")),
             new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1650825724/Products/Customer%20Views/Furniture/received_808387730034072_xipcqt.jpg", "Coffee Table", true, new Category("Living")),
-            new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1650825724/Products/Customer%20Views/Furniture/received_723326661717722_bxbb6g.jpg", "Wine Bar", true, new Category("Dining", "Living")),
+            new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1650825724/Products/Customer%20Views/Furniture/received_723326661717722_bxbb6g.jpg", "Wine Bar", true, new Category("Living")),
             new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1650825723/Products/Customer%20Views/Furniture/received_702820840653236_ip3hli.jpg", "Console", true, new Category("Living")),
             new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1650825723/Products/Customer%20Views/Furniture/received_641470113487360_twojup.jpg", "Barndoor", true, new Category("Bed", "Living")),
             new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1650825722/Products/Customer%20Views/Furniture/received_467696121746135_farlgx.jpg", "Bar", true, new Category("Dining")),
@@ -112,10 +112,8 @@ namespace WebApplication1.Controllers
             new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1651618104/Products/Customer%20Views/Furniture%202/20220104_162339_2_zk0xnt.jpg", "Metal Bench", true, new Category("Living")),
             new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1651618103/Products/Customer%20Views/Furniture%202/20211021_182931_y4631e.jpg", "Console", true, new Category("Living")),
             new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1651618103/Products/Customer%20Views/Furniture%202/Resized_20210712_171901_2_snizga.jpg", "Living Room Set", true, new Category("Living")),
-            new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1651618103/Products/Customer%20Views/Furniture%202/Resized_20210529_181033_1_wfqtda.jpg", "Shoe Storage Chest", true, new Category("Living")),
             new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1651618102/Products/Customer%20Views/Furniture%202/Resized_20210606_151905_erqa2h.jpg", "Front Desk", true, new Category("Office")),
             new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1651618102/Products/Customer%20Views/Furniture%202/Resized_20210529_180646_1_qqvc7g.jpg", "Bench and Coat Hanger", true, new Category("Living")),
-            new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1651618102/Products/Customer%20Views/Furniture%202/Resized_20210529_181011_1_fysoeo.jpg", "Bench", true, new Category("Living")),
             new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1651618102/Products/Customer%20Views/Furniture%202/Resized_20210527_182845_1_1_tlibkv.jpg", "Dining Table", true, new Category("Dining")),
             new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1651618101/Products/Customer%20Views/Furniture%202/20210124_102216_1_fyxqx4.jpg", "Living Room Set", true, new Category("Living")),
             new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1651618101/Products/Customer%20Views/Furniture%202/Resized_20210417_113508_1_ohlobx.jpg", "L Shaped Desk", true, new Category("Office", "Living")),
@@ -131,13 +129,13 @@ namespace WebApplication1.Controllers
             new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1651618097/Products/Customer%20Views/Furniture%202/20200913_151835_1_m1bxbz.jpg", "Barndoor Console", true, new Category("Bed", "Living")),
             new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1651618096/Products/Customer%20Views/Furniture%202/Resized_20201024_130152_1_c0fwnh.jpg", "Barndoor Consoles", true, new Category("Living", "Bed")),
             new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1651618096/Products/Customer%20Views/Furniture%202/Resized_20200929_104632_1_oel3kp.jpg", "Shelf", true, new Category("Office", "Living")),
-            new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1651618096/Products/Customer%20Views/Furniture%202/20200920_143832_nxhrpd.jpg", "Ladder", true, new Category("Living", "Bedroom")),
+            new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1651618096/Products/Customer%20Views/Furniture%202/20200920_143832_nxhrpd.jpg", "Ladder", true, new Category("Living", "Bed")),
             new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1651618095/Products/Customer%20Views/Furniture%202/Resized_20200613_131410_mjcgha.jpg", "Dining Table", true, new Category("Living")),
             new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1651618095/Products/Customer%20Views/Furniture%202/Resized_20200613_131410_mjcgha.jpg", "", true, new Category("Dining")),
             new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1651618095/Products/Customer%20Views/Furniture%202/Resized_20200516_114550_bmkwta.jpg", "Shelves", true, new Category("Office", "Living")),
-            new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1651618095/Products/Customer%20Views/Furniture%202/20201018_095111_cbep9m.jpg", "Coffee Table", true, new Category("Dining")),
+            new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1651618095/Products/Customer%20Views/Furniture%202/20201018_095111_cbep9m.jpg", "Coffee Table", true, new Category("Living")),
             new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1651618094/Products/Customer%20Views/Furniture%202/received_1203616616721149_2_wbjl8u.jpg", "Console", true, new Category("Living")),
-            new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1651618094/Products/Customer%20Views/Furniture%202/20200920_143818_k4eyo3.jpg", "Ladder", true, new Category("Living", "Bedroom")),
+            new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1651618094/Products/Customer%20Views/Furniture%202/20200920_143818_k4eyo3.jpg", "Ladder", true, new Category("Living", "Bed")),
             new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1651618094/Products/Customer%20Views/Furniture%202/qVdzt7R4-627679739_1_hvldgz.jpg", "Barndoor End Tables", true, new Category("Living", "Bed")),
             new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1651618094/Products/Customer%20Views/Furniture%202/QKRu2Ue7-675739771_yrcgni.jpg", "Coffee Table", true, new Category("Living")),
             new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1651618093/Products/Customer%20Views/Furniture%202/R8XvdL8J-629291445_1_hmqhi6.jpg", "Living Room Set", true, new Category("Living")),
@@ -150,7 +148,12 @@ namespace WebApplication1.Controllers
             new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1651618092/Products/Customer%20Views/Furniture%202/IqChhpeD-627591887_1_rzfsok.jpg", "Living Room Set", true, new Category("Living")),
             new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1651618091/Products/Customer%20Views/Furniture%202/hqyvG2YV-628367738_1_lmis8l.jpg", "Living Room Set", true, new Category("Dining")),
             new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1651618091/Products/Customer%20Views/Furniture%202/20200818_091129_1_xwhcdy.jpg", "Living Room Set", true, new Category("Living")),
-            new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1651618091/Products/Customer%20Views/Furniture%202/APIEQxt4-260016450_lv0lv9.jpg", "Barndoor Console", true, new Category("Bed", "Living"))
+            new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1651618091/Products/Customer%20Views/Furniture%202/APIEQxt4-260016450_lv0lv9.jpg", "Barndoor Console", true, new Category("Bed", "Living")),
+            new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1651618103/Products/Customer%20Views/Furniture%202/Resized_20210715_180821_1_h3ingw.jpg", "Patio bench w/Chase", true, new Category("Outdoors")),
+            new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1651618103/Products/Customer%20Views/Furniture%202/Resized_20210715_175837_1_u1lhra.jpg", "Patio Bench", true, new Category("Outdoors")),
+            new Products(12, "https://res.cloudinary.com/dmremrlru/image/upload/v1651953981/Products/Customer%20Views/Furniture%202/20220507_150541_qhiewl.jpg", "Patio Bench", true, new Category("Shoe Storage"))
+
+
 
 
 
