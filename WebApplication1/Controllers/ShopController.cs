@@ -12,5 +12,6 @@ namespace WebApplication1.Controllers
     public class ShopController : Controller
     {
         public IActionResult Index() => View();
+        public IActionResult Success() => View();
     }
 }

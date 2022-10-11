@@ -8,11 +8,19 @@ namespace WebApplication1.Services
     public class StripeService
     {
 
-        public static SessionCreateOptions CreateOptions()
+        public static SessionCreateOptions CreateOptions(string product, string? stain)
         {
+            if (stain == "Espresso")
+                stain = "price_1Lr49EG76BfK0JrSaNGhCsrl";
+            else if (stain == "Grey")
+                stain = "price_1Lr47nG76BfK0JrSB7coPsQy";
+            else
+                stain = "price_1Lr49EG76BfK0JrSaNGhCsrl";
+
 
             var options = new SessionCreateOptions
             {
+                
                 ConsentCollection = new SessionConsentCollectionOptions { TermsOfService = "required" },
                 PhoneNumberCollection = new SessionPhoneNumberCollectionOptions
                 {
@@ -25,15 +33,20 @@ namespace WebApplication1.Services
                   new SessionLineItemOptions
                   {
                     // Provide the exact Price ID (for example, pr_1234) of the product you want to sell
-                    Price = "price_1LofAtG76BfK0JrSY31CteAd",
-                    Quantity = 2,
+                    Price = product,
+                    Quantity = 1,
+                    TaxRates = new List<string>
+            {
+              "txr_1Lr7k3G76BfK0JrSbNffXJSn",
+            }
                   },
                   new SessionLineItemOptions
                   {
                     // Provide the exact Price ID (for example, pr_1234) of the product you want to sell
-                    Price = "price_1LofAtG76BfK0JrSY31CteAd",
-                    Quantity = 2,
+                    Price = stain,
+                    Quantity = 1,
                   },
+                  
                 },
                 Mode = "payment",
                 SuccessUrl = "https://localhost:44355/Checkout/Success",
